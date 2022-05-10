@@ -6,6 +6,7 @@ public class ReadingDataFromCommandLineTest {
 	@Test(groups="smoke")
 	public void readingDataFromCommandLineTest()
 	{
+		System.out.println("Changes Done");
 		String url = System.getProperty("url");
 		String un = System.getProperty("username");
 		String pwd = System.getProperty("password");
